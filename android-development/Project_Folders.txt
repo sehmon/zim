@@ -1,0 +1,24 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-01-03T14:35:20-05:00
+
+====== Project Folders ======
+Created Friday 03 January 2014
+
+src - Contains class files for your app
+gen - auto generated folder (don't touch)
+	R.java - provides access to all resources needed for your aplcation. Each resource has an ID
+assets - contains text files and databases you need for your app
+libs - contains android support API backwards compatible
+bin - cantains all the files build by the adt, contains the apk of your app
+
+android-mainfest.xml - defines requirements components and securities for your app. contains app name, icon, activities, permissions, etc. 
+	android.intent.action.MAIN - defines the entry point for the app
+resources - contains images you need for different resoultions- small, normal, large, xlarge
+layout - contains files that define the user interface
+	Relative - relative to other items
+	Linear - aligns all elements in one direction 
+	Grid - series of rows and collumns (use layout editor)
+	Frame - new elements are stacked on top of each other
+
+

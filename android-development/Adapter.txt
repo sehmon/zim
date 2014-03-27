@@ -1,0 +1,21 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-02-25T20:28:46-05:00
+
+====== Adapter ======
+Created Tuesday 25 February 2014
+
+{{./pasted_image001.png}}
+
+So where do these View objects come from? Does the ListView have them ahead of time? That would be inefficient. A View object only needs to exist when it is on screen. Lists can be enormous, and unnecessarily creating and storing view objects for an entire list could cause performance and memory problems.
+
+The wiser course is to create view objects only as they are needed. The ListView asks for a view object when it needs to display a certain list item.
+
+Whom does the ListView ask? It asks its adapter. An adapter is a controller object that sits between the ListView and the data set containing the data that the ListView should display.
+
+The adapter is responsible for
+	creating the necessary view object 
+	populating it with data from the model layer
+	returning the view object to the ListView
+
+An adapter is an instance of a class that implements the Adapter interface. You are going to use an instance of ArrayAdapter<T>, which is an adapter that knows how to work with data in an array (or an ArrayList) of T type objects

@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-01-29T22:34:31-05:00
+
+====== Views ======
+Created Wednesday 29 January 2014
+
+A view in Android represents a widget, e.g., a button, or a layout manager.
+
+All views in Android extend the android.view.View class. This class is relatively large (greater than 18 000 lines of code) and provides a lot of base functionality for subclasses. Customer can implement their own views by extending android.view.View.
+
+
+To use a view in a fragment, use the getView() function

@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-01-03T17:13:02-05:00
+
+====== App Components ======
+Created Friday 03 January 2014
+
+The following software components can be defined in Android applications.
+
+Activities
+
+Services
+
+Broadcast receivers (short: receivers)
+
+Content providers (short: providers)

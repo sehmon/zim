@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-01-03T16:25:05-05:00
+
+====== Languages ======
+Created Friday 03 January 2014
+
+make folders for supporting different languages for you app
+
+make a new folder in the res folder: -es
+
+make a new strings.xml file in the folder and paste in the resources, but translated.
+
+folder is named with a dash before the country code:
+	-en
+	-ch
+	-sp

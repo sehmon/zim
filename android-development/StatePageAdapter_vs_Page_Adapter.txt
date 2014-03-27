@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-02-28T22:20:28-05:00
+
+====== StatePageAdapter vs Page Adapter ======
+Created Friday 28 February 2014
+
+With FragmentStatePagerAdapter, your unneeded fragment is destroyed. A transaction is committed to completely remove the fragment from your activity’s FragmentManager. The “state” in FragmentStatePagerAdapter comes from the fact that it will save out your fragment’s Bundle from onSaveInstanceState(Bundle) when it is destroyed. When the user navigates back, the new fragment will be restored using that instance state.
+
+By comparison, FragmentPagerAdapter does nothing of the kind. When your fragment is no longer needed, FragmentPagerAdapter calls detach(Fragment) on the transaction instead of remove(Fragment). This destroys the fragment’s view, but leaves the fragment instance alive in the FragmentManager. So the fragments created by FragmentPagerAdapter are never destroyed.

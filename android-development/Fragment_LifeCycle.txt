@@ -1,0 +1,22 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-02-07T18:30:18-05:00
+
+====== Fragment LifeCycle ======
+Created Friday 07 February 2014
+
+{{./pasted_image.png}}
+
+One critical difference between the fragment lifecycle and the activity lifecycle is that fragment lifecycle methods are called by the hosting activity, not the OS. The OS knows nothing about the fragments that an activity is using to manage things. Fragments are the activity’s internal business.
+
+You have two options when it comes to hosting a UI fragment in an activity:
+add the fragment to activity’s layout
+add the fragment in the activity’s code
+
+The first approach is known as using a layout fragment. It is simple but inflexible. If you add the fragment to the activity’s layout, you hard-wire the fragment and its view to the activity’s view and cannot swap out that fragment during the activity’s lifetime.
+
+Despite their inflexibility, layout fragments are useful, and you will see more of them in Chapter 13.
+
+The second approach is the more complex way to host, but it is the only way to have control at runtime over your fragments. You determine when the fragment is added to the activity and what happens to it after that. You can remove the fragment, replace it with another, and then add the first fragment back again.
+
+Thus, to achieve real UI flexibility you must add your fragment in code. This is the approach you will use for CrimeActivity’s hosting of a CrimeFragment. The code details will come later in the chapter. First, you are going to define CrimeActivity’s layout.

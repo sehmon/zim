@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-01-22T16:38:41-05:00
+
+====== tar ======
+Created Wednesday 22 January 2014
+
+tar -xzvf smartgithg-generic-5_0_6.tar.gz 
+that does everything you need to know

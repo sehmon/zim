@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-03-03T14:41:06-05:00
+
+====== HTTP Methods ======
+Created Monday 03 March 2014
+
+
+GET: retrieves information from the specified source (you just saw this one!)
+
+POST: sends new information to the specified source.
+
+PUT: updates existing information of the specified source.
+
+DELETE: removes existing information from the specified source.

@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-02-03T12:29:49-05:00
+
+====== Model-View-Controller ======
+Created Monday 03 February 2014
+
+Android apps are based off of MVC architecture. It states that any object in your application must be a model, view, or a controller. 
+
+Model- A model holds the apps data. They hold and manage data (TrueFalse class in GeoQuiz)
+
+View- A view is an object that knows how to react to user input and draw itself on the screen. "If you can see it on the screen then it is a view". They also know how to respond to user input. (activity_quiz.xml for GeoQuiz)
+
+Controller- blend together Models and Views. Designed to respond to the various events triggered by views and use the events to update or change the state of a model. (Activity, Fragment or Service)
+
+(The Big Nerd Ranch Guide Page:46-48)

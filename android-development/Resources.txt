@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-01-29T22:21:54-05:00
+
+====== Resources ======
+Created Wednesday 29 January 2014
+
+Drawables	/res/drawables	 Images (e.g., png or jpeg files) or XML files which describe a Drawable object.
+Simple Values	/res/values	 Used to define strings, colors, dimensions, styles and static arrays of strings or integers via XML files. By convention each type is stored in a separate file, e.g., strings are defined in the res/values/strings.xml file.
+Layouts	/res/layout	 XML files with layout descriptions are used to define the user interface for Activities and fragments.
+Styles and Themes	/res/values	Files which define the appearance of your Android application.
+Animations	/res/animator	Defines animations in XML for the animation API which allows to animate arbitrary properties of objects over time.
+
+Raw data	/res/raw	 Arbitrary files saved in their raw form. You access them via an InputStream object.
+
+Menus	/res/menu	Defines the properties of entries for a menu.

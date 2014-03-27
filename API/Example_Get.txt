@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-03-03T17:03:16-05:00
+
+====== Example Get ======
+Created Monday 03 March 2014
+
+var xhr = new XMLHttpRequest();
+xhr.open("GET", "http://www.codecademy.com/", false);
+xhr.send();
+console.log(xhr.status);
+console.log(xhr.statusText);
+
+Go ahead and do three things:
+
+Create a variable called xhr and set it equal to new XMLHttpRequest().
+
+Call open xhr and pass it three arguments: "GET" (the type of request you'd like to make), "http://www.codecademy.com/" (the URL), and false (this means the exercise will wait until it gets a response from the server).
+
+Call .send() on xhr. We've already taken care of the console.log()s for you!

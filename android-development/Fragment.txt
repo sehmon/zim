@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-02-07T18:09:33-05:00
+
+====== Fragment ======
+Created Friday 07 February 2014
+
+Page 243
+
+A fragment is a controller object that an activity can deputize to perform tasks. Most commonly, the task is managing a user interface. The user interface can be an entire screen or just one part of the screen.
+A fragment managing a user interface is known as a UI fragment. A UI fragment has a view of its own that is inflated from a layout file. The fragment’s view contains the interesting UI elements that the user wants to see and interact with.{{./pasted_image.png}}
+
+Using UI fragments separates the UI of your app into building blocks, which is useful for more than just list-detail applications. Working with individual blocks, it is easy to build tab interfaces, tack on animated sidebars, and more.
+
+To get a result from a fragment you use **Fragment.startActivityForResult**

@@ -1,0 +1,22 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-02-05T16:50:57-05:00
+
+====== Logs ======
+Created Wednesday 05 February 2014
+
+When you use the android.util.Log class to send log messages, you control not only the content of a message, but also a level that specifies how important the message is. Android supports five log levels, shown in Figure 3.17. Each level has a corresponding method in the Log class. Sending output to the log is as simple as calling the corresponding Log method.
+
+{{./pasted_image.png}}
+Examples of Logging:
+
+// Log a message at "debug" log level
+Log.d(TAG, "Current question index: " + mCurrentIndex);
+
+TrueFalse question;
+try {
+    question = mAnswerKey[mCurrentIndex];
+} catch (ArrayIndexOutOfBoundsException ex) {
+    // Log a message at "error" log level, along with an exception stack trace
+    Log.e(TAG, "Index was out of bounds", ex);
+}

@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-02-26T13:57:58-05:00
+
+====== Extra ======
+Created Wednesday 26 February 2014
+
+You use an extra to transfer data from one activity or fragment to another
+
+Page 325- Exchanging data from Activities to Fragments and the other way around

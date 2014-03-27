@@ -1,0 +1,39 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-01-02T19:25:36-05:00
+
+====== Directories ======
+Created Thursday 02 January 2014
+
+[[/bin/]] - contains most of the programs for the system
+[[/boot/]] - where the kernel and bootloader is located. 
+[[/dev/]] - contains devices that the system can read/ are available to the system
+[[/etc/]] - system configuration:
+	[[/passwd/]] - essential info for each user
+	[[/fstab/]] - the devices that get mounted to the system upon boot
+	[[/hosts/]] - network and IP adresses that are known to the system
+	[[/init.d/]] - contains the scripts that run at boot to start certain systems
+[[/home/]] - where user files are kept
+[[/lib/]] - shared libraries for the system (DLLs)
+[[/media/]] - used for automatic mounting of disks (hard drive)
+[[/mnt/]] - used to mount portable media (usb, dvd, floppy)
+[[/opt/]]
+[[/sbin/]]
+[[/srv/]]
+[[/tmp/]] - tmp files that are deleted on shutdown
+[[/usr/]] - supports user applications
+	/usr/local/ - used for system software that does not come with the distro __when you install programs, install them here__ (C:Programs Files)
+	[[/share/X11]] - Support files for the X Windows System
+	[[/usr/share/dict]] - Dictionaries for the spell checker (look and ispell)
+	[[/usr/share/man]] - where the man pages are kept
+	[[/usr/src/]] - source code files 
+[[/var/]] - contains files that change while the system is running
+	[[/var/log]] - contains log files that are updated while the system runs
+	[[/var/spool/]] holds files that are queued for some processes
+	
+[[/root/]] - home directory for the root user
+[[/proc/]] - contains holes to let you peek at the kernel and info about the system
+	[[/proc/]] - contains a directory for each running process
+	[[/proc/cmdline/]] - returns the command line passed to the running kernel
+	[[/proc/cpuinfo/]] - returns info about the running CPUs
+	[[/proc/uptime]] returns the uptime of the system in seconds

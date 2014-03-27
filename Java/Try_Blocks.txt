@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-01-18T12:50:42-05:00
+
+====== Try Blocks ======
+Created Saturday 18 January 2014
+
+try{
+The possibly dangerous code that you want to run
+} catch(Exception e) {
+the exception that you catch when it is thrown and the code you want to run if it happens
+} finally{
+The code that you want to run no matter what happens with the try block
+}
+
+Make sure you put the smaller catch blocks on the top
+
+If you are creating a method that might catch an exception, you can make your method also throw the exception, thus allowing the method above it to catch the exception, Page 337

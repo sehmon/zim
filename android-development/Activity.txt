@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-01-03T15:09:32-05:00
+
+====== Activity ======
+Created Friday 03 January 2014
+
+An open screen or window in your app
+
+Activities were not built to provide this flexibility. An activity is tightly coupled with its view. The view that the activity inflates in the call to setContentView(…) is tied to the activity ’til death do them part. You cannot swap out an activity’s entire view (without destroying the activity) or pass a view from one activity to another at runtime. This is the law of Android.
+
+[[Methods]]

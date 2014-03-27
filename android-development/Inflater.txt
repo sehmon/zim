@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-03-09T03:48:45-04:00
+
+====== Inflater ======
+Created Sunday 09 March 2014
+
+Inflaters take layout files and inflate them for java classes to use. They are mostly called in View Methods of Fragments and Activities

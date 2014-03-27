@@ -1,0 +1,30 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-01-08T21:46:51-05:00
+
+====== Number Formatting ======
+Created Wednesday 08 January 2014
+
+**Syntax:**
+%[argument number][flags][width][.precision]type
+
+__Examples__
+int one = 20456654;
+double two = 100567890.248907;
+String s = String.format(“The rank is %,d out of %,.2f”, one, two);
+
+This gives you a way to format more than one number in a string.
+
+format(“I have %.2f bugs to fix.”, 476578.09876);
+Percent sign is where the argument goes
+
+*This will format the arguement to 2 decimal places
+
+String s = String.format(“%, d", 100000000);
+System.out.println(s);
+
+This will print the formatted version of the second parameter of .format. 
+
+"d" stands for decimal number
+
+

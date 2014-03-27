@@ -1,0 +1,35 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-01-03T16:15:08-05:00
+
+====== Activity Methods ======
+Created Friday 03 January 2014
+
+In Startup order:
+
+onCreate() - creates startup logic the first time the app is introduced into the memory
+
+onStart()
+
+onResume() - when the user is currently interacting with the user
+
+In Shutdown order():
+
+onPause() - when the user is obscured by another activty. Cant interact with the user i.e. when a dialog box is over the activity
+	camera
+	gps
+	shut off sound/video
+	end animations
+	
+onStop() - all data used by the user is retained but cant be interacted with. data is normally saved here. not visible at all on the screen
+
+onRestart - any restorative work needed when going from start to resume. not really used
+onDestroy() - 
+
+resume, pause, and stop are the only ones that can happen over a longer period of time
+
+Android Manifest- on startup the system calls onCreate from MainActiviy.java
+	<activity> holds the start for the application
+	
+onSaveInstanceState- Used to serialize data to save for later, make sure to make custom classes Serializable if you want to use this in your classes
+

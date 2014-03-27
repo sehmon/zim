@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-01-02T20:31:12-05:00
+
+====== Commands to use in Terminal ======
+Created Thursday 02 January 2014
+
+**top **- command used to show top running processes. (task manager) Use 'k' to kill the process
+**ifconfig** - command used to configure and monitor network
+**chmod **and **chown** - used to edit file permissions
+**SSH** - used to connect to another server wirelessly
+**wget** - downloads everything from a website to a folder
+**grep** - used to search for something in another command
+**find** - used to find files based on other criteria
+**apt-get **- installs and searched your package database

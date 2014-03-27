@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-02-27T14:39:58-05:00
+
+====== Ids ======
+Created Thursday 27 February 2014
+
+to define resource IDs you make a file in the res/values folder and store your ids
+
+Listing 11.2  Create standalone resource ID (res/values/ids.xml)
+**<?xml version="1.0" encoding="utf-8"?>**
+**<resources xmlns:android="http://schemas.android.com/apk/res/android">**
+
+**    <item type="id" name="viewPager" />**
+
+**</resources>**

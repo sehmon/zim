@@ -1,0 +1,22 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-03-03T14:41:37-05:00
+
+====== Request ======
+Created Monday 03 March 2014
+
+A request is made of 3 parts
+
+
+-The request line, which tells the server what kind of request is being sent (GET, POST, etc.) and what resource it's looking for;
+
+-The header, which sends the server additional information (such as which client is making the request)
+
+-The body, which can be empty (as in a GET request) or contain data (if you're POSTing or PUTing information, that information is contained here).
+
+Example:
+// POST /codecademy/learn-http HTTP/1.1
+// Host: www.codecademy.com
+// Content-Type: text/html; charset=UTF-8
+// Name=Eric&Age=26
+

@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-02-05T18:48:56-05:00
+
+====== Intent Results ======
+Created Wednesday 05 February 2014
+
+There are two methods you can call in the child activity to send data back to the parent:
+
+    public final void setResult(int resultCode)
+    public final void setResult(int resultCode, Intent data)
+
+Typically, the result code is one of two pre-defined constants: Activity.RESULT_OK or Activity.RESULT_CANCELED. (You can use another constant, RESULT_FIRST_USER, as an offset when defining your own result codes.)
+
+Setting result codes is useful when the parent needs to take different action depending on how the child activity finished.
+
+For example, if a child activity had an OK button and a Cancel button, the child activity would set a different result code depending on which button was pressed. Then the parent activity would take different action depending on the result code.

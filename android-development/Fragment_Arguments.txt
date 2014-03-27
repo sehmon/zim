@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-02-26T19:10:08-05:00
+
+====== Fragment Arguments ======
+Created Wednesday 26 February 2014
+
+To attach the arguments bundle to a fragment, you call Fragment.setArguments(Bundle). Attaching arguments to a fragment must be done after the fragment is created but before it is added to an activity.
+
+To hit this window, Android programmers follow a convention of adding a static method named newInstance() to the Fragment class. This method creates the fragment instance and bundles up and sets its arguments.
+
+When the hosting activity needs an instance of that fragment, you have it call the newInstance() method rather than calling the constructor directly. The activity can pass in any required parameters to newInstance(…) that the fragment needs to create its arguments.
+
+In CrimeFragment, write a newInstance(UUID) method that accepts a UUID, creates an arguments bundle, creates a fragment instance, and then attaches the arguments to the fragment.

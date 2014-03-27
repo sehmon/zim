@@ -1,0 +1,22 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-03-17T16:18:12-04:00
+
+====== Storing Information ======
+Created Monday 17 March 2014
+
+5.1. Persisting data between application restarts
+In fragments you also need to store your application data. For this you can persist the data in a central place. For example,
+
+SQlite database
+
+File
+
+The application object if this case the application need to handle the storage
+
+5.2. Persisting data between configurations changes
+If you want to persist data between configuration changes, you can also use the application object.
+
+In addition to that you can use the setRetainState(true) method call on the fragments . This retains fragment instances between configuration changes but only works if the fragments are not added to the backstack. Using this method is not recommend by Google for fragments which have an user interface. In this case the data must be stored as member (field).
+
+If the data, which should be stored, is supported by the Bundle class, you can use the onSaveInstanceState() method to place the data in the Bundle, and retrieve that data the onActivityCreated() method.

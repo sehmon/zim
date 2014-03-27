@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-01-03T16:13:58-05:00
+
+====== Methods ======
+Created Friday 03 January 2014
+
+Methods are used on objects...
+
+[[Activity Methods]]

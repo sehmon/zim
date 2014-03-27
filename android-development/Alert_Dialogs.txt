@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-03-05T19:37:21-05:00
+
+====== Alert Dialogs ======
+Created Wednesday 05 March 2014
+
+[[AlertDialogs]] have to be wrapped in an instance of [[DialogFragment.]]
+
+Transaction between [[CrimeFragment]] and [[DatePickerFragment]]
+{{./pasted_image.png}}

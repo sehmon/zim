@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-01-08T21:58:43-05:00
+
+====== Calendar ======
+Created Wednesday 08 January 2014
+
+Use the static “getInstance()” method:
+Calendar cal = Calendar.getInstance();

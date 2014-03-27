@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-02-23T15:30:51-05:00
+
+====== Layouts ======
+Created Sunday 23 February 2014
+
+Attributes whose names do not begin with layout_ are directions to the widget. When it is inflated, the widget calls a method to configure itself based on each of these attributes and their values.
+
+When an attribute’s name begins with layout_, that attribute is a direction to that widget’s parent. These attributes are known as layout parameters, and they tell the parent layout how to arrange the child element within the parent
