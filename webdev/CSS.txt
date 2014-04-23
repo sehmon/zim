@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-04-18T08:44:24-04:00
+
+====== CSS ======
+Created Friday 18 April 2014
+
+To add css to a webpage, you would add a like in your <head> like so:
+
+<link type="text/css" rel="stylesheet" href="stylesheet.css">
+
+Type is always text/css
+
+Rel is always stylesheet
+
+href is the like of the stylesheet

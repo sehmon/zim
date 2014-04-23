@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-04-18T08:39:00-04:00
+
+====== Tags ======
+Created Friday 18 April 2014
+
+* <html> - required for any webpage
+* <head> - the header of the website and what displays in the website tab
+* <body> - required for any webpage, where your "website" goes
+* <span> - allows you to split up smaller textfields for styling
+* <div> - allows you to divide your website into sections

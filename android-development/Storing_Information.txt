@@ -20,3 +20,5 @@ If you want to persist data between configuration changes, you can also use the 
 In addition to that you can use the setRetainState(true) method call on the fragments . This retains fragment instances between configuration changes but only works if the fragments are not added to the backstack. Using this method is not recommend by Google for fragments which have an user interface. In this case the data must be stored as member (field).
 
 If the data, which should be stored, is supported by the Bundle class, you can use the onSaveInstanceState() method to place the data in the Bundle, and retrieve that data the onActivityCreated() method.
+
+Therefore, if you have something in your activity or fragment that should last a long time, then you should tie it to the activity record’s lifetime by overriding onSaveInstanceState(Bundle) to save its state so that you can restore it later.
